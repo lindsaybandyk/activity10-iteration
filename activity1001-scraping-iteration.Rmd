@@ -82,7 +82,7 @@ paths_allowed("http://www.facebook.com")
 Are you able to scrape data from TMDB or facebook?
 
 
-
+facebook is false. 
 
 Below is the start of a `scrape_tmdb` function.
 The goal of this function is that when provided with a TV show's TMDB's URL, it will scrape the show's title, year, content rating, and user score.
@@ -117,8 +117,14 @@ scrape_tmdb <- function(url){
 
 
 Use your function to obtain the information from this TV Show: `https://www.themoviedb.org/tv/2382`
+```{r}
+scrape_tmdb("https://www.themoviedb.org/tv/2382")
+```
 
-
+title: .10 a
+year: .release_date
+content rating: .certification
+user ration: canvas
 
 
 ## Gathering the data
